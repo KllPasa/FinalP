@@ -1,0 +1,60 @@
+body {
+    background-color: lightblue;
+}
+
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #444;
+    color: white;
+    padding: 8px;
+    z-index: 100;
+
+}
+
+.skip-link:focus {
+    top: 10px;
+}
+
+.navADec {
+    border: 1px solid rgb(147, 147, 224);
+    border-radius: 10px;
+    background-color: #c0b5b5;
+    font-size: xx-large;
+
+
+
+}
+
+div {
+    padding: 10px;
+}
+
+.theOthers {
+    margin: 20px;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+
+nav {
+    background-color: rgb(255, 203, 90);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 6px;
+
+}
+
+nav a {
+    font-size: x-large;
+    text-decoration: none;
+    padding: 3px;
+}
+
+img {
+    background-color: rgb(255, 203, 90);
+    border: 1px solid rgb(80, 80, 80);
+    border-radius: 4px;
+    padding: 3px;
+}
